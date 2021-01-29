@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parcel Sandbox</title>
+        <meta charset="UTF-8" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <div id="app" class="row w-75 mt-5" style="margin: auto;">
+            <div class="card col" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="Title">Roast</h5>
+                    <p class="card-text" id="insult-text"></p>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button
+                            id="insult-btn"
+                            class="btn btn-primary"
+                            type="button"
+                        >
+                            Another
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card col" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Dirty Joke</h5>
+                    <p id="joke-text" class="card-text"></p>
+                    <button id="joke-btn" class="btn btn-primary" type="button">
+                        Another
+                    </button>
+                </div>
+            </div>
+            <div class="card col" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Image</h5>
+                    <p id="image" class="card-text"></p>
+                    <button
+                        id="image-btn"
+                        class="btn btn-primary"
+                        type="button"
+                    >
+                        Another
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script src="src/index.js"></script>
+    </body>
+</html>
